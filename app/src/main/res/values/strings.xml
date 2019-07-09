@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DiegoTerror</string>
+    <string name="Login">Login Google</string>
+    <string name="field_name">Nome Completo:</string>
+    <string name="street_name">Rua:</string>
+    <string name="numero">Número:</string>
+    <string name="neiboorhood">Bairro:</string>
+    <string name="cep">CEP:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="user_type">
+        <item>Empregador</item>
+        <item>Empregado</item>
+    </string-array>
+</resources>

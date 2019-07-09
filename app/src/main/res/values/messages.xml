@@ -1,0 +1,5 @@
+
+<resources>
+    <string name="blank_validate_email">Email em branco ou inválido</string>
+    <string name="blank_validate_password">Senha em Branco</string>
+</resources>
