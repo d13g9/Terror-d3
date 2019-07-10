@@ -1,4 +1,4 @@
-package com.example.diegoterror
+package com.example.th
 
 import org.junit.Test
 

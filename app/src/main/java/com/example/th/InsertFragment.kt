@@ -1,4 +1,4 @@
-package com.example.diegoterror
+package com.example.th
 
 import android.content.Context
 import android.net.Uri
@@ -7,9 +7,6 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
-import android.widget.Spinner
-import java.lang.reflect.Array
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -51,21 +48,9 @@ class InsertFragment : Fragment() {
 
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
 
-        val susertype:Spinner? = view?.findViewById(R.id.user_type) as Spinner;
-        setupUserType(susertype);
-    }
 
-    private fun setupUserType(susertype: Spinner?) {
-        ArrayAdapter.createFromResource(activity!!.applicationContext,  R.array.user_type,android.R.layout.simple_spinner_item).
-                also { adapter ->
-                        adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
-                    susertype?.adapter = adapter;
-                }
 
-    }
 
 
     // TODO: Rename method, update argument and hook method into UI event

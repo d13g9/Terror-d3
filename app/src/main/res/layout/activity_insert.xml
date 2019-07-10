@@ -7,10 +7,25 @@
         android:layout_height="match_parent"
         tools:context=".InsertActivity">
 
-    <fragment android:layout_width="match_parent"
-              android:layout_height="match_parent"
+    <Spinner android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/user_type" app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+             app:layout_constraintTop_toTopOf="parent" tools:layout_editor_absoluteX="16dp"
+             app:layout_constraintVertical_bias="0.04">
+    </Spinner>
+
+
+    <fragment android:layout_width="395dp"
+              android:layout_height="632dp"
               android:id="@+id/insertFragment"
-              android:name="com.example.diegoterror.InsertFragment">
+              android:name="com.example.th.InsertFragment"
+              app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+              app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+              android:layout_marginStart="8dp"
+              android:layout_marginTop="8dp"
+              android:layout_marginBottom="8dp"
+              app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/user_type"
+              app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.0">
 
     </fragment>
 

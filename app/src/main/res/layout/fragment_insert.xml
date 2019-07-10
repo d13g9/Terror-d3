@@ -6,17 +6,25 @@
              tools:context=".InsertFragment"
              android:orientation="vertical">
 
-    <Spinner android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:id="@+id/user_type">
 
-    </Spinner>
+
+
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/name"
             android:hint="@string/field_name"
             android:inputType="text"
+
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CPF"
+            android:hint="@string/CPF"
+            android:inputType="number"
+            android:maxLength="11"
 
     />
 
@@ -45,12 +53,18 @@
             android:layout_height="wrap_content"
             android:id="@+id/neiboorhood"
             android:hint="@string/neiboorhood"
-            android:inputType="number"/>
+            android:inputType="text"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/cep"
             android:hint="@string/cep"
             android:inputType="number"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_profienciency"
+            android:text="@string/competencias"
+    />
 
 </LinearLayout>
